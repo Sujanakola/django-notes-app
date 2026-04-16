@@ -1,6 +1,8 @@
 version: "3.8"
 
 services:
+web:
+image : "sujana123w/notes-app:tagname"
   nginx:
     build: ./nginx
     image: nginx
